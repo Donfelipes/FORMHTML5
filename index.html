@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form HTML5</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/742e7e45c8.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="form">
+        <div class="title">
+            <h1>Payment form example</h1>
+        </div>
+        <div class="card">
+            <div class="subtitle">
+                <p>Some fields are missing</p>
+            </div>
+            <div class="cardheader">
+                <fieldset>
+                    <label for="Card">Card #</label>
+                    <input type="text" id="Card" name="Card" placeholder="XXXXXXXXXXXXXXXXXXX">  
+                </fieldset>
+                <fieldset>
+                    <label for="CVC">CVC #</label>
+                    <input type="text" id="CVC" name="CVC" placeholder="000">
+                </fieldset>
+                <fieldset>
+                    <label for="Amount">Amount</label>
+                    <input type="text" id="Amount" name="Amount" placeholder="Amount">             
+                </fieldset>
+            </div>
+            <!---Left--->
+            <div class="container">
+                <div class="cardleft">
+                    <fieldset>
+                        <label for="name">First Name</label>
+                        <input type="text" id="name" name="name">
+                    </fieldset>
+                    <fieldset>
+                        <label for="city">City</label>
+                        <input type="text" id="city" name="city">
+                    </fieldset>
+                    <fieldset>
+                        <p>We Accept:</p>
+                        <div class="inputradio">
+                        <input type="radio" name="tarjet" id="mastercard">
+                        <label for="mastercar">
+                            <i class="fa-brands fa-cc-mastercard"></i>
+                        </label>
+                        <input type="radio" name="tarjet" id="visa">
+                        <label for="visa">
+                            <i class="fa-brands fa-cc-visa"></i>
+                        </label>
+                        <input type="radio" name="tarjet" id="express">
+                        <label for="express">
+                            <i class="fa-brands fa-cc-amex"></i>
+                        </label>
+                        <input type="radio" name="tarjet" id="paypal">
+                        <label for="paypal">
+                            <i class="fa-brands fa-cc-paypal"></i>
+                        </label>
+                    </div>
+                    </fieldset>
+                </div>
+    
+                <!---Right--->
+                <div class="cardright">
+                    <fieldset>
+                        <label for="lastname">Last Name</label>
+                        <input type="text" id="lastname">
+                    </fieldset>
+                    <div class="cardright2">
+                        <fieldset>
+                            <p>State</p>
+                            <select name="state" id="state">
+                                <option value="Sanfrancisco">San Francisco</option>
+                                <option value="Washington DC">Washington DC</option>
+                                <option value="Texas">Texas</option>
+                                <option value="Oklahoma">Oklahoma</option>
+                            </select>
+                        </fieldset>
+                        <fieldset>
+                            <label for="postal">Postal Code</label>
+                            <input type="text" id="postal">
+                        </fieldset>
+                    </div>
+                    <fieldset>
+                        <label for="message">Message</label><br>
+                        <textarea name="message" id="message" cols="30" rows="10"></textarea>
+                    </fieldset>
+                   <span>Add any notes here.</span>
+                </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            </div>
+            
+            
+
+            
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+   
+
+
+
+
+</body>
+</html>
